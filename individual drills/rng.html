@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RNG</title>
+  </head>
+
+  <body>
+    <h2>using Math.random()</h2>
+    <form>
+      <button
+        type="button"
+        value="create number"
+        onclick="document.getElementById('byMath').innerHTML = `your number is `+rngMakerbyMath()"
+      >
+        Click me(0~9)
+      </button>
+      <span id="byMath"></span>
+    </form>
+    <h2>using Date.now()</h2>
+    <script src="rng.js"></script>
+  </body>
+</html>
