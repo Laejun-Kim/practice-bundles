@@ -11,9 +11,12 @@
 
 .btn {
   font-size: 30px;
-  justify-content: space-evenly;
-  display: inline;
+  justify-content: space-between;
+  align-items: center;
   width: 200px;
   border-radius: 5px;
   margin: 10px 20px;
+  display: inline;
 }
+
+/* 도대체 왜 버튼 위치를 justify-content:space-btwn 으로 조절할수 없는지 모르겠다  */
