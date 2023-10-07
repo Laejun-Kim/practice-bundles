@@ -1,0 +1,19 @@
+#countLabel {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+}
+
+.btnbox {
+  display: flex;
+  margin: 50px 20px;
+}
+
+.btn {
+  font-size: 30px;
+  justify-content: space-evenly;
+  display: inline;
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px 20px;
+}
