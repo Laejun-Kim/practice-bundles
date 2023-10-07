@@ -4,7 +4,9 @@ const box_c = document.getElementsByClassName("box");
 btn_c.addEventListener("click", () => {
   console.log("connected to btn_c");
   console.log(box_c);
-  box_c[2].scrollIntoView();
+  box_c[2].scrollIntoView({
+    behavior: "smooth",
+  });
 });
 
 // function scroll() {
